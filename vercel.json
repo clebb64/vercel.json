@@ -3,15 +3,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://143.14.244.242/$1"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Host", "value": "143.14.244.242" }
-      ]
+      "destination": "https://143.14.244.242:443/$1"
     }
   ]
 }
