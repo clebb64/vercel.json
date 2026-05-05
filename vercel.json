@@ -3,7 +3,18 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://vps.lubunet.shop:8443/$1"
+      "destination": "https://143.14.244.242:443/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Host", "value": "143.14.244.242" },
+        { "key": "X-Forwarded-For", "value": "143.14.244.242" },
+        { "key": "Connection", "value": "upgrade" },
+        { "key": "Upgrade", "value": "websocket" }
+      ]
     }
   ]
 }
