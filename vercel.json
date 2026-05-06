@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://teate.lubunet.shop:443/$1"
+      "destination": "https://teate.lubunet.shop/$1"
     }
   ]
 }
