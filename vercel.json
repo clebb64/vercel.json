@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://vps.lubunet.shop/$1"
+      "destination": "https://vps.lubunet.shop/$1"
     }
   ]
 }
